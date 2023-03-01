@@ -28,7 +28,7 @@ if __name__=="__main__":
     st.write("NUMERO DE BSD : -------------")
     st.write(" : -------------")
     
-    st.write("# * Description de l'anomalie")
+    st.write("# *Description de l'anomalie")
     st.write(" : -------------")
    
     # Display the LOGO
