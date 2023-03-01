@@ -20,7 +20,7 @@ if __name__=="__main__":
         layout="centered"
     )
 
-    st.title(" *Fiche de non conformité* ")
+    st.title(" Fiche de non conformité ")
 
     st.write("Auteur : Brahim AIT OUALI  - Technicien chimiste")
     st.write("### I. Identification")
