@@ -23,12 +23,12 @@ if __name__=="__main__":
     st.title("Fiche de non conformité")
 
     st.write("Auteur : Brahim AIT OUALI  - Technicien chimiste")
-    st.write("* Identification")
+    st.write("# * Identification")
     st.write("PRODUCTEUR DU DECHET : -------------")
     st.write("NUMERO DE BSD : -------------")
     st.write(" : -------------")
     
-    st.write("* Description de l'anomalie")
+    st.write("# * Description de l'anomalie")
     st.write(" : -------------")
    
     # Display the LOGO
@@ -42,11 +42,11 @@ if __name__=="__main__":
 
 
     
-    st.write("* Photos")
+    st.write("# * Photos")
     st.image(img4, width=250)
     st.image(img3, width=250)
     
-    st.write("* Vidéos")
+    st.write("# * Vidéos")
     video_file = open('video-resine.mp4', 'rb')
     video_bytes = video_file.read()
 
