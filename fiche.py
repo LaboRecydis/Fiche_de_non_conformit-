@@ -28,7 +28,7 @@ if __name__=="__main__":
     st.write("NUMERO DE BSD : -------------")
     st.write(" : -------------")
     
-    st.write("# II. Description de l'anomalie")
+    st.write("#  II. Description de l'anomalie")
     st.write(" : -------------")
    
     # Display the LOGO
@@ -42,11 +42,11 @@ if __name__=="__main__":
 
 
     
-    st.write("# III. Photos")
+    st.write("#  III. Photos")
     st.image(img4, width=250)
     st.image(img3, width=250)
     
-    st.write("# IV. Vidéos")
+    st.write("#  IV. Vidéos")
     video_file = open('video-resine.mp4', 'rb')
     video_bytes = video_file.read()
 
